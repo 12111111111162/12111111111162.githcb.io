@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>24电商网站——首页</title>
+    <!----> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing： border-box;
+    }
+
+    .heeder,
+    .nay,
+    .main,
+    .sidebar,
+    .footer {
+        padding: 15px;
+        margin: 10px auto;
+        width: 90%;
+        border: 1px solid;
+        border-radius: 5PX;
+    }
+
+    .heeder {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nay ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    .main {
+        display: flex;
+        gap: 15px;
+    }
+
+    .main-content{
+        flex: 3;
+    }
+
+    .sidebar {
+        flex: 1;
+        margin: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <!--头部模块：班级名称+LOGO-->
+    <div class="header">
+        <img src="class-logo.png" alt="24电商logo" width="80" height="80">
+        <h1>24电商官方网站</h1>
+    </div>
+    
+    <!--导航模块：核心导航链接-->
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="members.html">班级成员</a></li>
+            <li><a href="activities.html">班级活动</a></li>
+            <li><a href="contact.html">联系方式</a></li>
+        </ul>
+    </div>
+    
+    <!--核心内容模板：公告+活动照片-->
+    <div class="main"
+        <div class="main-content">
+            <h2>班级公告</h2>
+            <p><strong>重要通知</strong>下周五【10.27】将举行秋季运动会，请各位同学提前准备参赛项目</p>
+            <p><strong>温馨提醒</strong></p>
+
+            <h2 style="margin-top: 20px ;"近期活动照片</h2>
